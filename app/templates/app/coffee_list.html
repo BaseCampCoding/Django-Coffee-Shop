@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<ul>
+{% for coffee in coffees %}
+<li>{{ coffee.name }} - ${{ coffee.price|floatformat:2 }}
+
+    <form action="{% url 'buy_coffee' coffee.id %}" method="POST">
+        {% csrf_token %}
+        <button>Buy {{ coffee.name }}</button>
+    </form>
+</li>
+{% endfor %}
+</ul>
+{% endblock content %}

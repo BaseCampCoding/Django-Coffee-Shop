@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Transaction #{{ transaction.id }}</h1>
+
+<dl>
+    <dt>Item Name</dt>
+    <dd>{{ transaction.item.name }}</dd>
+    <dt>Time</dt>
+    <dd>{{ transaction.time }}</dd>
+    <dt>Pre Tax</dt>
+    <dd>{{ transaction.pre_tax }}</dd>
+    <dt>Tax</dt>
+    <dd>{{ transaction.tax }}</dd>
+</dl>
+{% endblock content %}
