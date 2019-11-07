@@ -12,7 +12,7 @@ More specifically...
 
 ## Models
 
-This project represents a music database and has 2 models:
+This project represents a coffee store database and has 2 models:
 
 - `Coffee`
 - `Transaction`
@@ -21,7 +21,7 @@ This project represents a music database and has 2 models:
 
 `Coffee` has two fields: `name` and an `price`.
 
-### `Song`
+### `Transaction`
 
 `Transaction` has four fields:
 
