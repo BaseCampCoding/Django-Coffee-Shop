@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base.dhtml' %}
 {% block content %}
 <h1>Transaction #{{ transaction.id }}</h1>
 

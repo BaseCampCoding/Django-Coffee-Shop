@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base.dhtml' %}
 {% block content %}
 <ul>
 {% for coffee in coffees %}
