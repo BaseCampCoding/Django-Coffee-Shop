@@ -2,7 +2,7 @@
 
 In this assignment you have been given a mostly complete Django Project.
 The frontend for the application has been provided for you.
-The only thing missing is:
+The only things missing are:
 
 - the Models
 - the URLs
@@ -12,7 +12,7 @@ More specifically...
 
 ## Models
 
-This project represents a music database and has 2 models:
+This project represents a coffee store database and has 2 models:
 
 - `Coffee`
 - `Transaction`
@@ -21,7 +21,7 @@ This project represents a music database and has 2 models:
 
 `Coffee` has two fields: `name` and an `price`.
 
-### `Song`
+### `Transaction`
 
 `Transaction` has four fields:
 
